@@ -1,0 +1,27 @@
+{
+  "name": "polo-hype-gainz",
+  "version": "0.0.1",
+  "description": "get money, fuck bitches",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brent Hamilton <hamilton.bh9@gmail.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "eslint-config-strawhouse": "^3.0.3",
+    "poloniex-api-node": "^1.1.1",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-config-prettier": "^2.1.1",
+    "eslint-config-strawhouse": "^3.0.3",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.10.3"
+  }
+}
