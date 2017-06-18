@@ -1,5 +1,5 @@
 const Promise = require('bluebird');
-const { debug, pump, dump, getBtcRate } = require('./lib/polo');
+const { getChartData, pump, dump, getBtcRate } = require('./lib/polo');
 const { wait } = require('./lib/util');
 
 const startingTimeout = 5000;
@@ -48,7 +48,7 @@ async function hypeTrain(target, lossThreshold = 0) {
 // console.log('need to specify a target currency (ex ETH)');
 
 async function go() {
-  return debug();
+  return getChartData();
 }
 
 go().then(() => console.log('done!')).catch(err => console.error(err));
